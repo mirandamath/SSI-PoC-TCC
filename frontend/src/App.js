@@ -35,7 +35,7 @@ function App() {
 
   if (agentRole === 'condominio' && !condoOption) {
     return (
-      <div>
+      <div className='condo-options'>
         <h1>Opções Condominio Agent</h1>
         <button onClick={() => setCondoOption('dashboard')}>Dashboard</button>
         <button onClick={() => setCondoOption('createSchema')}>Criar Schema</button>

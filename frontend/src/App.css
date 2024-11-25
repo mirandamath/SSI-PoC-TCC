@@ -109,4 +109,17 @@ button:active {
   .app-select-agent button {
     width: 100%;
   }
+
+}
+
+.condo-options {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.condo-options button {
+  width: 20%;
+  margin-top: 10px; /* Add some space between buttons */
 }

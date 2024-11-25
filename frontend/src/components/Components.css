@@ -167,3 +167,17 @@ li {
     padding: 10px 0;
   }
 }
+.accept-invitation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+.accept-invitation-button,
+.accept-invitation-scan-button {
+  padding: 10px 20px;
+  font-size: 16px;
+
+}
