@@ -1,6 +1,6 @@
 [submodule "von-network"]
 	path = von-network
-	url = https://github.com/bcgov/von-network
+	url = https://github.com/Ahmedntc/von-network
 [submodule "acapy"]
 	path = acapy
-	url = https://github.com/hyperledger/aries-cloudagent-python
+	url = https://github.com/Ahmedntc/acapy
