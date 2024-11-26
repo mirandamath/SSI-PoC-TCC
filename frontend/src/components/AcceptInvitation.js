@@ -44,13 +44,13 @@ function AcceptInvitation({ apiUrl }) {
   useEffect(() => {
     if (showScanner) {
       const config = {
-        fps: 10,
+        fps: 60,
         qrbox: 250,
 
         rememberLastUsedCamera: true,
         supportedScanTypes: [
-         //Html5QrcodeScanType.SCAN_TYPE_CAMERA,
           Html5QrcodeScanType.SCAN_TYPE_FILE,
+          Html5QrcodeScanType.SCAN_TYPE_CAMERA,
         ],
       };
 

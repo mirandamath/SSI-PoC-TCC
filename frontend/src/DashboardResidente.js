@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import AcceptInvitation from "./components/AcceptInvitation";
-import PendingConnections from "./components/PendingConnections";
 import ConnectionsList from "./components/ConnectionsList";
 import PendingStoreCredentials from "./components/PendingStoreCredentials";
 import PendingCredentialOffers from "./components/PendingCredentialOffers";
@@ -55,7 +54,6 @@ function DashboardResidente({ apiUrl, onBack }) {
           <section className="tab-content">
             <ConnectionsList apiUrl={apiUrl} />
             <AcceptInvitation apiUrl={apiUrl} />
-            <PendingConnections apiUrl={apiUrl} />
           </section>
         )}
         {activeTab === 'offers' && (

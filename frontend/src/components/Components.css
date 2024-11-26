@@ -181,3 +181,35 @@ li {
   font-size: 16px;
 
 }
+
+#qr-reader {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width to make it smaller */
+  margin: 20px auto; /* Center the QR reader and add some margin */
+  border: 2px solid #ccc; /* Add a border */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 10px; /* Add some padding */
+  background-color: #f9f9f9; /* Add a background color */
+}
+
+#qr-reader__dashboard_section {
+
+}
+
+#qr-reader__camera_selection {
+  margin-bottom: 10px;
+}
+
+#qr-reader__dashboard_section_csr button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#qr-reader__dashboard_section_csr button:hover {
+  background-color: #0056b3;
+}
